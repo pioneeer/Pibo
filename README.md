@@ -30,8 +30,7 @@
 -------------------
 
 
-<br></br>
-![Imgur](http://i.imgur.com/P2p4bQI.jpg)
+![](C:\grim\pic01.jpg "악보 인식 및 증강현실")
 
 
 #### 악보 인식 및 해석
@@ -51,6 +50,8 @@
 
 <br></br>
 
+<br></br>
+
 
 
 ##개발내용
@@ -58,8 +59,7 @@
 
 #### 시스템 구성도
 
-<br></br>
-![Imgur](http://i.imgur.com/JSBO9G2.jpg)
+![](C:\grim\pic02.jpg "전체 시스템 구성도" "width:500px")
 
 악보를 선택하고 머리에 쓰고 이용하게 되면 손으로 UI를 조작할 수 없기 때문에 자이로 센서로 조작을 입력받는다. 악보인식 부분은 Open CV를 이용하여 악보 이미지를 분석 후 데이터 셋을 만드는 라이브러리 파일(Jar file)을 생성한다. 생성된 라이브러리 파일을 Unity에서 플러그인으로 이용할 수 있다.
 
@@ -67,13 +67,11 @@
 
 #### 악보 인식 흐름
 
-<br></br>
-![Imgur](http://i.imgur.com/SBfMrFi.jpg)
+![](C:\grim\pic03.jpg "악보 인식 흐름" "width:600px")
 
 
 
-<br></br>
-![Imgur](http://i.imgur.com/anEgZJh.jpg)
+![](C:\grim\pic08.jpg "악보 인식 과정" "width:800px")
 
 
 악보 이미지 파일에서 불필요한 데이터를 지워내기 위해 영상을 이진화한 후, 음표를 인식하기 위해 오선과 음표를 분할한다. 분할된 음표는 개별로 인식하여 박자를 구분한다. 분리된 오선의 위치에 따라 음계가 결정되므로 각 음표마다 오선의 위치에 따른 음계를 구분한다.
@@ -81,13 +79,28 @@
 
 #### 음표 인식
 
-<br></br>
-![Imgur](http://i.imgur.com/g3sT2FN.jpg)
+![](C:\grim\pic09.jpg "음표 인식" "width:100px")
 
 음표를 판단하는 기준은 음표의 가운데 줄기가 된다. 이 줄기의 위치와 머리 부분의 위치를 기준으로 음계를 파악하며, 머리 부분의 양 옆, 줄기 부분의 양 옆, 위, 아래 부분을 검사하여 몇 박자인지 구분한다.
 
 
 <br></br>
+
+<br></br>
+
+<br></br>
+<br></br>
+
+<br></br>
+
+
+##개발일정
+-------------
+
+![](C:\grim\pic04.jpg "개발일정" "width:700px")
+
+본 프로젝트는 8주간 진행되었음.
+
 
 
 
@@ -95,8 +108,8 @@
 -------------
 
 
-영상 주소: [https://youtu.be/c4jTGvZLmoA]
-
-
+영상 주소
+[https://www.youtube.com/watch?v=KlqsGw-KUgA]
+[https://youtu.be/c4jTGvZLmoA]
 
 
