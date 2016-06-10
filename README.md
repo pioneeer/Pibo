@@ -100,7 +100,9 @@
 
 
 영상 주소
-1. [https://www.youtube.com/watch?v=KlqsGw-KUgA]
-2. [https://youtu.be/c4jTGvZLmoA]
+<br></br>
+[https://www.youtube.com/watch?v=KlqsGw-KUgA]
+<br>
+[https://youtu.be/c4jTGvZLmoA]
 
 
