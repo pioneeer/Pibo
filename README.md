@@ -100,6 +100,8 @@
 
 
 영상 주소
+<br>
+ui어플리케이션과 게임 플레이 어플리케이션으로 나뉘어져 있습니다.
 
 [https://www.youtube.com/watch?v=KlqsGw-KUgA]
 <br>
